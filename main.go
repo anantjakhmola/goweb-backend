@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/anantjakhmola/goweb-backend/views"
+
 	"github.com/gorilla/mux"
 )
 
