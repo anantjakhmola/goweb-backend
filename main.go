@@ -35,7 +35,7 @@ func faq(w http.ResponseWriter, r *http.Request) {
 
 func signup(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type,", "text/html")
-	must(signup.Render(w, nil))
+	must(signupView.Render(w, nil))
 }
 
 func main() {
